@@ -1,8 +1,6 @@
 # fut-cards
 Collection of all FUT card types and sizes in html/css format
 
-```html
-
 ![normal gold large Card](https://raw.githubusercontent.com/thomasrye/fut-cards/master/assets/card-fut-15-large-gold)
 ![normal gold small Card](https://raw.githubusercontent.com/thomasrye/fut-cards/master/assets/card-fut-15-small-gold)
 ![normal gold mini Card](https://raw.githubusercontent.com/thomasrye/fut-cards/master/assets/card-fut-15-mini-gold)
@@ -60,6 +58,3 @@ Collection of all FUT card types and sizes in html/css format
 ![intl-motm large Card](https://raw.githubusercontent.com/thomasrye/fut-cards/master/assets/card-fut-15-large-intl-motm)
 ![intl-motm small Card](https://raw.githubusercontent.com/thomasrye/fut-cards/master/assets/card-fut-15-small-intl-motm)
 ![intl-motm mini Card](https://raw.githubusercontent.com/thomasrye/fut-cards/master/assets/card-fut-15-mini-intl-motm)
-
-
-```
