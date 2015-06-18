@@ -76,3 +76,11 @@ Collection of all FUT card types and sizes in html/css format
 ![intl-motm large Card](/assets/card-fut-15-large-intl-motm.png?raw=true)
 ![intl-motm small Card](/assets/card-fut-15-small-intl-motm.png?raw=true)
 ![intl-motm mini Card](/assets/card-fut-15-mini-intl-motm.png?raw=true)
+
+![intl-motm large Card](/assets/card-fut-15-large-pro-player.png?raw=true)
+![intl-motm small Card](/assets/card-fut-15-small-pro-player.png?raw=true)
+![intl-motm mini Card](/assets/card-fut-15-mini-pro-player.png?raw=true)
+
+![intl-motm large Card](/assets/card-fut-15-large-blue-green.png?raw=true)
+![intl-motm small Card](/assets/card-fut-15-small-blue-green.png?raw=true)
+![intl-motm mini Card](/assets/card-fut-15-mini-blue-green.png?raw=true)
