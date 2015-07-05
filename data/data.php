@@ -1,0 +1,287 @@
+<?
+	$player = array(
+		"playerid" => 171877,
+		"nationid" => 43,
+		"nationname" => "Slovakia",
+		"nameid" => 0,
+		"firstname" => "Marek",
+		"lastname" => "Hamšík",
+		"commonname" => null,
+		"team_id" => 48,
+		"teamname" => "SSC Napoli",
+		"overallrating" => 82,
+		"curve" => 81,
+		"agility" => 79,
+		"gksavetype" => 0,
+		"positioning" => 81,
+		"standingtackle" => 59,
+		"preferredposition3" => -1,
+		"longpassing" => 75,
+		"penalties" => 70,
+		"longshots" => 78,
+		"gkdiving" => 8,
+		"interceptions" => 52,
+		"crossing" => 79,
+		"potential" => 84,
+		"gkreflexes" => 14,
+		"reactions" => 80,
+		"vision" => 82,
+		"contractvaliduntil" => 2016,
+		"finishing" => 77,
+		"dribbling" => 81,
+		"slidingtackle" => 55,
+		"firstnameid" => 13514,
+		"sprintspeed" => 73,
+		"height" => 183,
+		"preferredposition2" => -1,
+		"strength" => 69,
+		"birthdate" => 147844,
+		"age" => 27,
+		"preferredposition1" => 18,
+		"ballcontrol" => 84,
+		"shotpower" => 76,
+		"trait1" => 327680,
+		"weight" => 79,
+		"balance" => 63,
+		"gkkicking" => 4,
+		"lastnameid" => 8611,
+		"internationalrep" => 3,
+		"shortpassing" => 86,
+		"freekickaccuracy" => 72,
+		"skillmoves" => 2,
+		"attackingworkrate" => "H",
+		"aggression" => 61,
+		"acceleration" => 73,
+		"headingaccuracy" => 74,
+		"gkhandling" => 6,
+		"playerjointeamdate" => 155123,
+		"defensiveworkrate" => "L",
+		"nationality" => 43,
+		"preferredfoot" => "R",
+		"weakfootabilitytypecode" => 4,
+		"jumping" => 72,
+		"gkkickstyle" => 0,
+		"stamina" => 78,
+		"marking" => 55,
+		"gkpositioning" => 14,
+		"trait2" => 0,
+		"jerseyname" => "Hamsik",
+		"playerjerseynameid" => 8636,
+		"commonnameid" => 0,
+		"preferredposition4" => -1,
+		"volleys" => 79,
+		"positionid" => null,
+		"position" => "CAM",
+		"prefpos1" => "CAM",
+		"prefpos1reg" => "MID",
+		"prefpos2" => null,
+		"prefpos2reg" => null,
+		"prefpos3" => null,
+		"prefpos3reg" => null,
+		"prefpos4" => null,
+		"prefpos4reg" => null,
+		"pac" => 73,
+		"sho" => 77,
+		"pas" => 81,
+		"dri" => 81,
+		"def" => 58,
+		"phy" => 70
+	);
+	
+$skills_abbr_array = array(	"jumping" => "jmp",
+		"stamina" => "sta",
+		"balance" => "bal",
+		"reactions" => "rct",
+		"agility" => "agi",
+		"acceleration" => "acc",
+		"sprintspeed" => "spd",
+		"strength" => "str",
+		"aggression" => "agg",
+		"positioning" => "pos",
+		"vision" => "vis",
+		"interceptions" => "int",
+		"ballcontrol" => "ctl",
+		"dribbling" => "drb",
+		"curve" => "crv",
+		"volleys" => "vol",
+		"shortpassing" => "sps",
+		"longpassing" => "lps",
+		"crossing" => "cro",
+		"longshots" => "lsh",
+		"finishing" => "fin",
+		"shotpower" => "pow",
+		"headingaccuracy" => "hea",
+		"penalties" => "pen",
+		"freekickaccuracy" => "fka",
+		"marking" => "mrk",
+		"standingtackle" => "std",
+		"slidingtackle" => "sld",
+		"gkreflexes" => "gkr",
+		"gkkicking" => "gkk",
+		"gkhandling" => "gkh",
+		"gkpositioning" => "gkp",
+		"gkdiving" => "gkd");
+
+$physical_array = array(
+		"acceleration",
+		"sprintspeed",
+		"agility",
+		"balance",
+		"jumping",
+		"stamina",
+		"strength",
+		"reactions");
+		
+$mental_array = array(
+		"aggression",
+		"interceptions",
+		"positioning",
+		"vision");
+
+$skills_array = array(
+		"ballcontrol",
+		"crossing",
+		"dribbling",
+		"finishing",
+		"freekickaccuracy",
+		"headingaccuracy",
+		"longpassing",
+		"shortpassing",
+		"marking",
+		"shotpower",
+		"longshots",
+		"standingtackle",
+		"slidingtackle",
+		"volleys",
+		"curve",
+		"penalties");
+
+$gk_skills_array = array(
+		"gkdiving",
+		"gkhandling",
+		"gkkicking",
+		"gkreflexes",
+		"gkpositioning");
+		
+$att_array = array("balance",
+		"agility",
+		"acceleration",
+		"sprintspeed",
+		"positioning",
+		"longshots",
+		"finishing",
+		"shotpower",
+		"headingaccuracy",
+		"penalties",
+		"freekickaccuracy");
+
+$mid_array = array("stamina",
+		"vision",
+		"shortpassing",
+		"longpassing",
+		"crossing",
+		"ballcontrol",
+		"dribbling",
+		"curve");
+
+$def_array = array("jumping",
+		"reactions",
+		"strength",
+		"aggression",
+		"interceptions",
+		"marking",
+		"standingtackle",
+		"slidingtackle");
+		
+$attacking_array = array(
+		"positioning",
+		"finishing",
+		"headingaccuracy",
+		"longshots",
+		"shotpower",
+		"volleys");
+		
+$skill_array = array(
+		"dribbling",
+		"curve",
+		"freekickaccuracy",
+		"longpassing",
+		"ballcontrol");
+		
+$movement_array = array(
+		"acceleration",
+		"sprintspeed",
+		"agility",
+		"reactions",
+		"balance");
+		
+$power_array = array(
+		"shotpower",
+		"jumping",
+		"stamina",
+		"strength",
+		"longshots");
+		
+$mentality_array = array(
+		"aggression",
+		"interceptions",
+		"positioning",
+		"vision",
+		"penalties");
+
+$defending_array = array(
+		"strength",
+		"aggression",
+		"interceptions",
+		"marking",
+		"standingtackle",
+		"slidingtackle");
+		
+$gk_skills_expanded_array = array_merge(array("jumping", "reactions", "strength"), $gk_skills_array);
+
+$player_data_array = array_merge(array("nationality",
+		"birthdate",
+		"internationalrep",
+		"height",
+		"weight",
+		"preferredposition1",
+		"preferredposition2",
+		"preferredposition3",
+		"preferredposition4",
+		"potential",
+		"trait1",
+		"trait2",
+		"attackingworkrate",
+		"defensiveworkrate",
+		"preferredfoot",
+		"weakfootabilitytypecode",
+		"skillmoves",
+		"overallrating"),
+		$physical_array,
+		$mental_array,
+		$skills_array,
+		array("gksavetype",
+		"gkglovetypecode"),
+		$gk_skills_array,
+		array("isretiring"));
+		
+$player_bio_array = array(
+		"nationality",
+		"age",
+		"height",
+		"weight",
+		"attackingworkrate",
+		"defensiveworkrate",
+		"preferredfoot",
+		"weakfootabilitytypecode",
+		"skillmoves",
+		"internationalrep",
+		"trait1",
+		"trait2");
+
+$all_skills_array = array_merge($physical_array, $mental_array, $skills_array, $gk_skills_array);
+		
+$player_skills_array = array_merge($physical_array, $mental_array, $skills_array);
+
+$fut_array = array("pac", "sho", "pas", "dri", "def", "phy");
+?>
