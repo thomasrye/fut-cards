@@ -5,10 +5,10 @@
 		<span><?= $player['player_name']; ?></span>
 	</div>
 	<div class="playercard-position"><?= $player['position']; ?></div>
-	<div class="playercard-nation"><img src="assets/nations/<?=$player['nationality'];?>.png"></div>
-	<div class="playercard-club"><img src="assets/badges/<?= $player['team_id']; ?>.png" alt="<?= $player['teamname'];?>" title="<?= $player['teamname'];?>"></div>
+	<div class="playercard-nation"><img src="../assets/nations/<?=$player['nationality'];?>.png"></div>
+	<div class="playercard-club"><img src="../assets/badges/<?= $player['team_id']; ?>.png" alt="<?= $player['teamname'];?>" title="<?= $player['teamname'];?>"></div>
 	<div class="playercard-picture">
-		<img src="assets/players/<?=$player['playerid'];?>.png" alt="<?= $player['player_name']; ?>">
+		<img src="../assets/players/<?=$player['playerid'];?>.png" alt="<?= $player['player_name']; ?>">
 	</div>
 	<div class="playercard-mid-bar">
 		<div class="playercard-workrate"><span class="label">Work</span><?=$player['attackingworkrate'] . "/" . $player['defensiveworkrate']; ?></div>
