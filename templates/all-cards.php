@@ -36,8 +36,8 @@
 	
 	$sizes = array("large", "small", "mini");
 	$levels = array("gold", "silver", "bronze");
-	$groups = array("normal", "rare", "if", "tots");
-	$specials = array("concept", "motm", "legend", "hero", "toty", "charity", "intl-motm", "pro-player", "blue-green");
+	$groups = array("nonrare", "rare", "if", "tots");
+	$specials = array("concept", "motm", "legend", "hero", "toty", "charity", "intl-motm", "pro-player", "record-breaker");
 	
 ?>
 
